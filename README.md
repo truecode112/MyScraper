@@ -8,7 +8,7 @@ My understanding of web scraping is patience and attention to details. Scraping 
 
 This repository contains a couple of python web scrapers. These scrapers mainly target at different commodity future exchanges and influential media websites (or so-called fake news, lol). Most scripts were written during my early days of Python learning. Since this repository gained unexpected popularity, I have restructured everything to make it more user-friendly. All the scripts featured in this repository are ready for use. Each script is designed to feature a unique technique that I found useful throughout my experience of data engineering. 
 
-Scripts inside this repository are classified into two groups, beginner and advanced. At the beginning, the script is merely about some technique to extract the data. As you progress, the script leans more towards data architect and other functions to improve the end product. If you are experienced or simply come to get scrapers for free, you may want to skip the content and just look at available scrapers</a>. If you are here to learn, you may look at <a href= https://github.com/je-suis-tm/web-scraping#table-of-contents>table of contents</a> to determine which suits you best. In addition, there are some <a href= https://github.com/je-suis-tm/web-scraping#notes>notes</a> on the annoying issues such as proxy authentication (usually corporate or university network) and legality (hopefully you won't come to that).
+Scripts inside this repository are classified into two groups, beginner and advanced. At the beginning, the script is merely about some technique to extract the data. As you progress, the script leans more towards data architect and other functions to improve the end product. If you are experienced or simply come to get scrapers for free, you may want to skip the content and just look at available scrapers</a>. If you are here to learn, you may look at <a href= https://github.com/truecode112/MyScraper#table-of-contents>table of contents</a> to determine which suits you best. In addition, there are some <a href= https://github.com/truecode112/MyScraper#notes>notes</a> on the annoying issues such as proxy authentication (usually corporate or university network) and legality (hopefully you won't come to that).
 
 <br>
 
@@ -16,71 +16,71 @@ Scripts inside this repository are classified into two groups, beginner and adva
 
 #### Beginner
 
-<a href=https://github.com/je-suis-tm/web-scraping#1-html-parse-tree-search-cme1>1. HTML Parse Tree Search (CME1)</a>
+<a href=https://github.com/truecode112/MyScraper#1-html-parse-tree-search-cme1>1. HTML Parse Tree Search (CME1)</a>
 
-<a href=https://github.com/je-suis-tm/web-scraping#2-json-cme2>2. JSON (CME2)</a>
+<a href=https://github.com/truecode112/MyScraper#2-json-cme2>2. JSON (CME2)</a>
 
-<a href=https://github.com/je-suis-tm/web-scraping#3-regular-expression-shfe>3. Regular Expression (SHFE)</a>
+<a href=https://github.com/truecode112/MyScraper#3-regular-expression-shfe>3. Regular Expression (SHFE)</a>
 
 #### Advanced
 
-<a href=https://github.com/je-suis-tm/web-scraping#1-sign-in-cqf>1. Sign-in (CQF)</a>
+<a href=https://github.com/truecode112/MyScraper#1-sign-in-cqf>1. Sign-in (CQF)</a>
 
-<a href=https://github.com/je-suis-tm/web-scraping#2-database-lme>2. Database (LME)</a>
+<a href=https://github.com/truecode112/MyScraper#2-database-lme>2. Database (LME)</a>
 
-<a href=https://github.com/je-suis-tm/web-scraping#3-newsletter-mena>3. Newsletter (MENA)</a>
+<a href=https://github.com/truecode112/MyScraper#3-newsletter-mena>3. Newsletter (MENA)</a>
 
 #### Notes
 
-<a href=https://github.com/je-suis-tm/web-scraping#1-proxy-authentication>1. Proxy Authentication</a>
+<a href=https://github.com/truecode112/MyScraper#1-proxy-authentication>1. Proxy Authentication</a>
 
-<a href=https://github.com/je-suis-tm/web-scraping#2-legality>2. Legality</a>
+<a href=https://github.com/truecode112/MyScraper#2-legality>2. Legality</a>
 
 <br>
 
 ## Available Scrapers
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>Al Jazeera AJ</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>Al Jazeera AJ</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>Bloomberg</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>Bloomberg</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>British Broadcasting Corporation BBC</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>British Broadcasting Corporation BBC</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/CFTC.py>CFTC</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/CFTC.py>CFTC</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>Cable News Network CNN</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>Cable News Network CNN</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/US%20Federal%20Holidays.py>Calendar Labs</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/US%20Federal%20Holidays.py>Calendar Labs</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/CQF.py>Certificate in Quantitative Finance CQF</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/CQF.py>Certificate in Quantitative Finance CQF</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/CME2.py>Chicago Mercantile Exchange CME Futures</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/CME2.py>Chicago Mercantile Exchange CME Futures</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/CME3.py>Chicago Mercantile Exchange CME Options</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/CME3.py>Chicago Mercantile Exchange CME Options</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>Financial Times FT</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>Financial Times FT</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>Fortune</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>Fortune</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/LME.py>London Metal Exchange LME</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/LME.py>London Metal Exchange LME</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/Macrotrends.py>Macrotrends</a>
+* <a href=https://github.com/truecode112/MyScraper/blob/master/Macrotrends.py>Macrotrends</a>
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/WallStreetBets.py>Reddit WallStreetBets</a>
+* <a href=https://github.com/truecode112/MyScraper/blob/master/WallStreetBets.py>Reddit WallStreetBets</a>
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/SHFE.py>Shanghai Future Exchange SHFE</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/SHFE.py>Shanghai Future Exchange SHFE</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/Springer.py>Springer Nature</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/Springer.py>Springer Nature</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>The Economist</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>The Economist</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>Thompson Reuters</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>Thompson Reuters</a> 
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/Tomtom.py>Tomtom</a>
+* <a href=https://github.com/truecode112/MyScraper/blob/master/Tomtom.py>Tomtom</a>
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/US%20Treasury.py>US Treasury</a>
+* <a href=https://github.com/truecode112/MyScraper/blob/master/US%20Treasury.py>US Treasury</a>
 
-* <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>Wall Street Journal WSJ</a> 
+* <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>Wall Street Journal WSJ</a> 
 
 <br>
 
@@ -90,11 +90,11 @@ Scripts inside this repository are classified into two groups, beginner and adva
 
 Tree is an abstract data type in computer science. Now that you are a programmer, Binary Tree and AVL Tree must feel like primary school math (haha, I am joking, tree is my worst nightmare when it comes to interview). For a webpage, if you right click and select view source (CTRL+U in both IE & Chrome), you will end up with a bunch of codes like this.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cme1%20html.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cme1%20html.PNG)
 
 The codes are written in HTML. The whole HTML script is a tree structure as well. The HTML parse tree looks like this. 
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cme1%20tree.png)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cme1%20tree.png)
 
 There is something interesting about HTML parse tree. The first word after the left bracket is HTML tag (in tree structure we call it node). In most cases, tags come in pairs. Of course, there are some exceptions such as line break tag `<br>` or doc type tag ` <!DOCTYPE>`. Usually the opening tag is just tag name but the closing tag has a slash before the name. Different tag names represent different functionalities. In most cases, there are only a few tags that contain information we need, e.g., tag `<div>` usually defines a table, tag `<a>` creates a hyperlink (the link is at attribute `href` and it may skip prefix if the prefix is the same as current URL), tag `<img>` comes up with a pic (the link is hidden in attribute `src`), tag `<p>` or `<h1>`-`<h6>` normally contains text. For more details of tagging, please refer to <a href= https://www.w3schools.com/tags/default.asp>w3schools</a>.
 
@@ -129,13 +129,13 @@ output=[i.text for i in temp]
 
 The attribute `find_all` returns all the matched results. `.text` attribute automatically gets all `str` values inside the current tag. The second article has a subtitle 'subscriber only'. So we will have a rather longer title for the second article compared to the rest. 
 
-You can refer to <a href= https://github.com/je-suis-tm/web-scraping/blob/master/CME1.py>CME1</a> for more details. Please note that CME1 is an outdated script for Chicago Mercantile Exchange. Due to the change of the website, you cannot go through HTML parse tree to extract data any more. Yet, the concept of HTML parse tree is still applicable to other cases.
+You can refer to <a href= https://github.com/truecode112/MyScraper/blob/master/CME1.py>CME1</a> for more details. Please note that CME1 is an outdated script for Chicago Mercantile Exchange. Due to the change of the website, you cannot go through HTML parse tree to extract data any more. Yet, the concept of HTML parse tree is still applicable to other cases.
 
 #### 2. JSON (CME2)
 
 JSON, is the initial for JavaScript Object Notation. Like csv, it is another format to store data. According to the <a href=https://www.json.org>official website</a> of JSON, it is easy for humans to read and write. Pfff, are you fxxking with me? Anyway, an SVG image generated by D3.js is normally associated with JSON data. Finding JSON makes it possible to extract data of an interactive chart. If you open JSON with notepad, you will see something like this.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cme2%20json.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cme2%20json.PNG)
 
 Gosh, the structure is messy and I will have a panic attack very soon. Duh! Just kidding. If you are familiar with adjacency list in graph theory, you will find it very easy to understand JSON. If not, do not worry, JSON is merely dictionaries inside dictionaries (with some lists as well). To navigate through the data structure, all you need to know is the key of the value.
 
@@ -160,39 +160,39 @@ print(df)
 
 Reading JSON is not really the main purpose of this chapter. What really made me rewrite the scraper for CME is the change of website structure. In April 2018, I could not extract data from searching for HTML tags any more. I came to realize that CME created a dynamic website by JavaScript. The great era of BeautifulSoup was water under the bridge. At this critical point of either adapt or die, I had to find out where the data came from and develop a new script. Guess where?
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cme2%20url.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cme2%20url.PNG)
 
 The URL is still in page source! The HTML tag for the hidden link is `<script>`. As I have mentioned at the beginning of this README file, scraping is about patience and attention to details. If you try to search all `<script>` tags, you will end up with more than 100 results. It took me a while for me to sniff the data source. My friends, patience is a virtue. 
 
 As for other websites, we may not be that lucky. Take <a href= https://www.euronext.com/en/products/indices/FR0003502079-XPAR>Euronext</a> for example, you won't find any data in page source. We have to right click and select inspect element (CTRL+SHIFT+I in Chrome, F12 in IE).
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cme2%20inspect%20element.png)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cme2%20inspect%20element.png)
 
 The next step is to select Network Monitor in a pop-up window. Now let's view data.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cme2%20network.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cme2%20network.PNG)
 
 There is a lot of traffic. Each one contains some information. Currently what truly matters to us is the request URL. Other information such as header or post form data will be featured in a later chapter. We must go through all the traffic to find out which URL leads to a JSON file. Once we hit the jackpot, we right click the request and copy link address.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cme2%20request%20url.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cme2%20request%20url.PNG)
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cme2%20link%20address.png)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cme2%20link%20address.png)
 
 Voila!
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cme2%20euronext.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cme2%20euronext.PNG)
 
-Euronext is still considered an easy one. Sometimes you have to post a form with valid header to get the JSON file. You will see that in the first chapter of advanced level. For more details of JSON, feel free to take a look at <a href= https://github.com/je-suis-tm/web-scraping/blob/master/CME2.py>CME2</a>. Please note that CME2 has replaced CME1 to be the available scraper for Chicago Mercantile Exchange. There is also <a href= https://github.com/je-suis-tm/web-scraping/blob/master/CME3.py>CME3</a> which specializes in option data.
+Euronext is still considered an easy one. Sometimes you have to post a form with valid header to get the JSON file. You will see that in the first chapter of advanced level. For more details of JSON, feel free to take a look at <a href= https://github.com/truecode112/MyScraper/blob/master/CME2.py>CME2</a>. Please note that CME2 has replaced CME1 to be the available scraper for Chicago Mercantile Exchange. There is also <a href= https://github.com/truecode112/MyScraper/blob/master/CME3.py>CME3</a> which specializes in option data.
 
 #### 3. Regular Expression (SHFE)
 
 Sometimes, navigate through HTML parse tree may not get you what you need. For instance, you have some information inside a javascript function. You don't really want the whole bloc. All you care about is API key. 
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/shfe%20javascript.png)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/shfe%20javascript.png)
 
 Or you got multiple titles. You only care about the numbers inside these titles. You are unable to use array slicing with indices because numbers don't appear in fixed positions. Those numbers can even be negative.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/shfe%20regex.png)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/shfe%20regex.png)
 
 Helpless, right? Not if you know regular expression! We will call it regex in the following context. Think of regex as another simple language as HTML. In Python, there is a built-in library called `re`. There are a couple of functions inside this module. But for web scraping, `re.findall` and `re.search` are commonly used. `re.findall` returns a list of all the matched words and `re.search` returns a regex object. We simply apply attribute `re.search('','').group()` to concatenate the text together.
 
@@ -221,7 +221,7 @@ Syntax | Meaning
 
 You can check <a href=https://www.w3schools.com/python/python_regex.asp>w3schools</a> for more details on regex syntax. 
 
-In this chapter, the example is to navigate through a JSON file by regex (way faster than parsed as a pandas dataframe). Recalled from the previous chapter, JSON file is sort of dictionaries inside dictionaries. Normally we access the value by multiple keys. If you think of JSON file as a tree ADT, we need to know every node (key) from root to parent to go to the child node (value). Now we convert the whole structure to string and search for certain patterns via regex. With look-ahead and look-behind pair, knowing a parent node is fairly sufficient to get the value. Don't believe me? Feel free to take a look at <a href=https://github.com/je-suis-tm/web-scraping/blob/master/SHFE.py>SHFE</a> for coding details.
+In this chapter, the example is to navigate through a JSON file by regex (way faster than parsed as a pandas dataframe). Recalled from the previous chapter, JSON file is sort of dictionaries inside dictionaries. Normally we access the value by multiple keys. If you think of JSON file as a tree ADT, we need to know every node (key) from root to parent to go to the child node (value). Now we convert the whole structure to string and search for certain patterns via regex. With look-ahead and look-behind pair, knowing a parent node is fairly sufficient to get the value. Don't believe me? Feel free to take a look at <a href=https://github.com/truecode112/MyScraper/blob/master/SHFE.py>SHFE</a> for coding details.
 
 <br>
 
@@ -239,21 +239,21 @@ Let's look at a simple case, a website called CQF. This great website features m
 
 Now that we have located the login activity, there are three key things we need to keep an eye on. The first one is Request URL. It will be the URL we post our form to. Pay attention to Request Method. The login is often POST method, rather than GET method.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cqf%20login%20link.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cqf%20login%20link.PNG)
 
 The second one will be Request Headers. Headers are great tools to disguise your scraping as an internet browser. They are called headers because you would spend most of your time scratching your head to get them right. We can observe tons of information in the headers. Only a small bit of them are genuinely useful to the login. An effective way is to exclude cookies and anything contains hashed information. Nonetheless, this is not always the case. Some websites filter out machines by valid cookies with hashed information for login. If you accidentally exclude those headers, you may trigger the alarm of the website and end up with some form of captcha.
 
 *My apologies for the redaction in these headers. The redaction plays a vital role here to protect my privacy. It turns my headers into some confidential documents from MI6.*
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cqf%20request%20header.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cqf%20request%20header.PNG)
 
 The last but not least one will be Form Data. It contains the critical information for authentication, such as username and password. 
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cqf%20post%20form.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cqf%20post%20form.PNG)
 
 There is another part called Query String Parameters. We do not encounter it very often at login. It is more frequently seen in data query though.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/cqf%20query.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/cqf%20query.PNG)
 
 Once we have gathered everything we need, we can simply do
 
@@ -270,7 +270,7 @@ The session will automatically update its cookie after posting a form. Generally
 session.headers.update({'token':response.json()['token']})
 ```
 
-We have obtained the security clearance now. We can snoop around every corner as we please. Quite simple, isn't it? For more details, feel free to click <a href=https://github.com/je-suis-tm/web-scraping/blob/master/CQF.py>CQF</a>. If you crave for a bigger challenge, why don't you start with scraping a private instagram account?
+We have obtained the security clearance now. We can snoop around every corner as we please. Quite simple, isn't it? For more details, feel free to click <a href=https://github.com/truecode112/MyScraper/blob/master/CQF.py>CQF</a>. If you crave for a bigger challenge, why don't you start with scraping a private instagram account?
 
 
 #### 2. Database (LME)
@@ -357,7 +357,7 @@ UPDATE table_name SET [column1]=value1
 DELETE FROM table_name WHERE [column1]=value1
 ```
 
-Feel free to take a look at <a href= https://github.com/je-suis-tm/web-scraping/blob/master/LME.py>LME</a> for more coding details.
+Feel free to take a look at <a href= https://github.com/truecode112/MyScraper/blob/master/LME.py>LME</a> for more coding details.
 
 
 #### 3. Newsletter (MENA)
@@ -380,57 +380,57 @@ With the blessing of web scraping, we eventually reduce click click click to pre
 
 Regardless of which way you pick, you need to find out where your python is installed. This can be easily done via `where python` in the command line.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20python%20path.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20python%20path.PNG)
 
 If you would love to directly call python.exe, you can skip the following procedures straight to the final step. Otherwise, you need to create a BAT execution file in notepad. Just specify the path to python.exe and the path to the script you want to automate.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20bat%20file.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20bat%20file.PNG)
 
 When you save the file, remember to use the extension of `bat` instead of the default `txt` and change the file type to `All Files`. 
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20bat%20format.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20bat%20format.PNG)
 
 To launch task scheduler, you only need to search it in the start menu.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20task%20scheduler.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20task%20scheduler.PNG)
 
 Let’s start a basic task from the right-hand tab.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20create%20task.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20create%20task.PNG)
 
 Just type in whatever name and description you want.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20task%20name.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20task%20name.PNG)
 
 Then select the frequency, in our case, daily.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20freq.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20freq.PNG)
 
 We can set the beginning of the execution, the time of the execution and how often the action recurs. It even allows you to synchronize the operation across different time zones. Use it especially if you are a technology consultant who frequently travels.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20set%20time.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20set%20time.PNG)
 
 For some unknown reasons, task scheduler has deprecated the choice of automatically sending an email. We can still achieve the same result via `win32` in Python, just to create a fabricated persona of a workaholic who sends midnight email to boss :unamused:
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20start%20program.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20start%20program.PNG)
 
 Finally, we should input the path to BAT execution file. You can use the path to python as well. Then the path to the script is required as the argument.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20script%20name.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20script%20name.PNG)
 
 Felicitations, c’est fini :no_mouth:
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20finito.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20finito.PNG)
 
 You can edit or delete your task from clicking the library tab.
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/mena%20check.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/mena%20check.PNG)
 
 As you can see, newsletter is not just some gibberish promotion email from Ocado. It can be used to optimize your information process as well. What kind of power a newsletter can harness is entirely up to you! 
 
 ![Alt Text](https://je-suis-tm.github.io/img/newsletter.png)
 
-For more technical details, feel free to check out <a href=https://github.com/je-suis-tm/web-scraping/blob/master/MENA%20Newsletter.py>MENA Newsletter</a>.
+For more technical details, feel free to check out <a href=https://github.com/truecode112/MyScraper/blob/master/MENA%20Newsletter.py>MENA Newsletter</a>.
 
 ## Notes
 
@@ -443,15 +443,15 @@ Proxy, it has always been associated with censorship. It is commonly used to acc
 It goes without saying how important proxy URL is. Protocol is usually `http` but occasionally `https`. Domain could be a bunch of number (e.g. 192.168.1.1) or a normal one (e.g. myproxy.com). As for the port, it can only be numbers (e.g. 8080).
 If you don't have URL information, you can always try to check Local Area Network Settings. Assuming you are using Windows, you can go to internet options in IE (in windows 10, you can find it in Windows Settings - Network & Internet - Proxy)
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/proxy%20ie.png)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/proxy%20ie.png)
 
 Click connections on the top panel then click LAN settings
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/proxy%20lan.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/proxy%20lan.PNG)
 
 You could find the proxy setup here
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/proxy%20domain.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/proxy%20domain.PNG)
 
 If not, you have to contact your local IT administrator. Sometimes python may be going through proxy by default. We could pass empty dictionary to `session.proxies` to get things working. 
 
@@ -501,7 +501,7 @@ For instance
 
 https://www.lemonde.fr/robots.txt
 
-![Alt Text](https://github.com/je-suis-tm/web-scraping/blob/master/preview/legality.PNG)
+![Alt Text](https://github.com/truecode112/MyScraper/blob/master/preview/legality.PNG)
 
 
 In English, all user agents (*  refers to all) are allowed for the following 2 sub directories.
